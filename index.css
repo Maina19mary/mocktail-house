@@ -1,0 +1,69 @@
+*{
+    background-color: rgb(195, 182, 208);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1:hover{
+    font-weight: 200;
+}
+
+@keyframes twinkle {
+    0% { color: red; }
+    20% { color: orange; }
+    40% { color: yellow; }
+    60% { color: green; }
+    80% { color: blue; }
+    100% { color: purple; }
+  }
+  
+  .twinkle {
+    animation: twinkle 2s infinite;
+  }
+  
+p h5{
+    text-align: left;
+}
+
+.nav-item{
+    margin:8px;
+}
+
+#gallery{
+    text-align: center;
+}
+
+.hidden-image{
+    display: flex;
+    padding:2px;
+    float: right;
+    
+}
+
+
+
+@media (min-width: 576px) {  
+    .nav-item{
+        margin:8px;
+        flex-direction: column;
+       
+    }
+}
+
+
+@media (min-width: 768px) {
+    p h5{
+        margin: 10px;
+        text-align:center;
+        position:relative;
+    }
+    .hidden-image{
+      flex-direction: column;
+      padding:3px;
+    }
+ }
+ 
+
+
