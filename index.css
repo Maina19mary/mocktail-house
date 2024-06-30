@@ -9,7 +9,11 @@ html{
 h1:hover{
     font-weight: 200;
 }
+#section2{
+    background-image: url(./back-1.jpg);
 
+    background-position: right 75%;
+}
 @keyframes twinkle {
     0% { color: red; }
     20% { color: orange; }
